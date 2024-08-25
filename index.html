@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">  
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Decodificador de Texto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/imagens/fechadura-da-porta (1).png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                    <img class="logo" src="./assets/imagens/alura-logo.svg">
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Digite um texto aqui" autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="./assets/imagens/exclamacao.svg" alt="exclamação" />
+                        Apenas letras minúsculas e sem acento.
+                    </span>
+                    <div class="botões">
+                        <button id="button__criptografar" class="button__criptografar">Criptografar</button>
+                        <button id="button__descriptografar" class="button__descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="right">
+                <img id="boneco" class="boneco" src="./assets/imagens/boneco.svg" alt="Nenhuma mensagem encontrada. Digite um texto que você deseja criptografar ou descriptografar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="textoInfo" class="info">Digite o texto que deseja criptografar ou descriptografar.</p>
+                <button class="button__copiar bn_ocultar" id="button__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="creador">Criado por Isabelle Lima</p>
+        </div>
+    </footer>
+    <script src="./Javascript/index.js"></script>
+</body>
+
+</html>
